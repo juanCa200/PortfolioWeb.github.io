@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/JC</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">Inicio</a></li>
+                            <li><a href="#sobremi">Sobre Mi</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy<span>Juan Ramirez</span>, Desarrollador Backend</h2>
+                <p class="descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled.</p>
+                <a href="#portfolio">Ir al portafolio</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="imagenes/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy<span>Juan Ramirez</span></h2>
+            <h3>Desarrollador Backend</h3>
+            <p>Tengo 18 años, estudiante de Ingenieria de sistemas, apasionado por la innovacion y creacion de software,
+                excelente trabajo en equipo y estoy siempre dispuesto a aprender nuevas tencologias</p>
+            <a onclick=" location.href='imagenes/CV.pdf' " target="_blank">Descarga CV</a> 
+        </div>
+
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis omnis ratione,
+                    facere fuga eveniet vitae magni temporibus iste neque nesciunt maxime odio eligendi
+                    veniam quaerat numquam amet voluptates commodi.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programacion Java</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis omnis ratione,
+                    facere fuga eveniet vitae magni temporibus iste neque nesciunt maxime odio eligendi
+                    veniam quaerat numquam amet voluptates commodi.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Grphic</li>
+                    <li>Seo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis omnis ratione,
+                    facere fuga eveniet vitae magni temporibus iste neque nesciunt maxime odio eligendi
+                    veniam quaerat numquam amet voluptates commodi.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1">
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Java</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="java" class="barra-progreso2">
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Spring Boot</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="spring" class="barra-progreso3">
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>C++</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="c++" class="barra-progreso4">
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>MYSQL</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="mysql" class="barra-progreso5">
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>SQL</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="sql" class="barra-progreso6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/pagina.png" alt="">
+                <div class="info">
+                    <h4>Portfolio Web</h4>
+                    <p>HTML & CSS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/agendate.png" alt="">
+                <div class="info">
+                    <h4>Agendate</h4>
+                    <p>Java & Mysql</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/ecommerce.jpeg" alt="">
+                <div class="info">
+                    <h4>E-Commerce</h4>
+                    <p>SpringBoot & Thymeleaf</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/agendate.png" alt="">
+                <div class="info">
+                    <h4>Api-Rest</h4>
+                    <p>SpringBoot & Postman</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/agendate.png" alt="">
+                <div class="info">
+                    <h4>Agendate</h4>
+                    <p>Java & Mysql</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/agendate.png" alt="">
+                <div class="info">
+                    <h4>Sistema de Implementos</h4>
+                    <p>Java, Interfaces graficas en Netbeans & Mysql</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Seccion Footer-->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
