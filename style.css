@@ -211,7 +211,7 @@ html {
 /* Servicios */
 
 #servicios {
-    padding: 100px 15px;
+    padding: 100px 500px;
     text-align: center;
     background-color: #f3f3f3;
 }
@@ -223,6 +223,7 @@ html {
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
+    padding-bottom: 15px;
 }
 
 #servicios .fila {
@@ -608,6 +609,7 @@ footer a {
 
     #servicios .fila .servicio {
         margin: 10px auto;
+
     }
 
     .contenedor-skills {
