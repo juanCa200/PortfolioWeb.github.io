@@ -541,8 +541,7 @@ footer a {
 
     }
     #sobremi .sobremi a{
-        height: auto;
-        width: 40%;
+        margin-left: 90px;
     }
     #servicios {
         padding: 50px 15px;
